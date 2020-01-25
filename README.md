@@ -1,4 +1,5 @@
 # HandGestureRecognition(Based on skin color detection using otsu)
+详细介绍：https://blog.csdn.net/realfancy/article/details/104082637
 1.利用摄像头实时采集视频<br>
 2.根据肤色在YCrCb颜色空间的聚类性质，采用otsu自适应阈值法来对Cr通道进行划分肤色区域和背景。<br>
 3.然后使用模板匹配的方法区分脸部和手部，得到手部区域的外接矩形。<br>
